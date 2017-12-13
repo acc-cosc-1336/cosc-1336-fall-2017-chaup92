@@ -62,6 +62,5 @@ class Gradebook:
         print()
         return input("Enter 1, 2, 3, or e to exit")
 
-db = SchoolDB(SchoolInitializer())
 gradebook = Gradebook(db)
 gradebook.main()
